@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>KrzB.MvvmCross.Xamarin.Template.CSharp.Native.iOS.Android</id>
+    <version>1.0.3</version>
+    <description>
+      Creates an MvvmCross solution for iOS and Android.
+    </description>
+    <authors>Krzysztof Baranowski - ProgramistaByc.pl</authors>
+    <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+    <title>MvvmCross template - native app for iOS and Android</title>
+    <summary>  Creates an MvvmCross solution for iOS and Android.</summary>
+    <projectUrl>https://github.com/krzbbaranowski/vs_mvvmcross_solution_template</projectUrl>
+    <iconUrl>http://programistabyc.pl/wp-content/uploads/2018/11/Xamarin.png</iconUrl>
+    <tags>MvvmCross template Xamarin native iOS Android visual studio</tags>
+  </metadata>
+  <files>
+    <file src=".\MvvmCrossNativeTemplate\**" target="content" exclude=".\MvvmCrossNativeTemplate\.template.config\template.json;
+    .\MvvmCrossNativeTemplate\*.Droid\obj;
+    .\MvvmCrossNativeTemplate\*.Droid\bin;
+    .\MvvmCrossNativeTemplate\*.iOS\obj;
+    .\MvvmCrossNativeTemplate\*.iOS\bin;
+    .\MvvmCrossNativeTemplate\*.Core\obj;
+    .\MvvmCrossNativeTemplate\*.Core\bin;
+
+    .\**\bin\**;.\**\obj\**;.\**\.vs\**;.\**\*.user;"/>
+    
+     <file src=".\XamarinMvvmCrossTemplateAddIn\KrzbMvvmCrossNativeSinglePage.template.json" target="content\.template.config\template.json"/>
+</files>
+</package>

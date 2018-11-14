@@ -1,0 +1,32 @@
+﻿{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Krzysztof Baranowski - programistabyc.plORY",
+  "classifications": [],
+  "description": "Xamarin(Android, iOS) MvvmCross Template by Krzysztof Baranowski",
+  "name": "Xamarin MvvmCross Template",
+  "defaultName": "XamarinMvvmCrossTemplate",
+  "identity": "XamarinMvvmCrossTemplate.CSharp",
+  "groupIdentity": "XamarinMvvmCrossTemplate",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "shortName": "XamarinMvvmCrossTemplate",
+  "sourceName": "XamarinMvvmCrossTemplate",
+  "guids": [
+    "{DD156E6C-65C6-4F0C-99DC-0486D8EF00E5}",
+    "{E0E81764-A587-4F8C-892F-4AF03C7FD5A8}",
+    "{65396C17-A285-453C-ABB3-48DFFEF65759}"
+  ],
+  "primaryOutputs": [
+    {
+      "path": "MvvmCrossNativeTemplate/XamarinMvvmCrossTemplate.Core//XamarinMvvmCrossTemplate.Core.csproj"
+    },
+    {
+      "path": "MvvmCrossNativeTemplate/XamarinMvvmCrossTemplate.Droid//XamarinMvvmCrossTemplate.Droid.csproj"
+    },
+    {
+      "path": "MvvmCrossNativeTemplate/XamarinMvvmCrossTemplate.iOS//XamarinMvvmCrossTemplate.iOS.csproj"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net461</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType></DebugType>
+    <OutputPath>bin\Release</OutputPath>
+    <CustomCommands>
+      <CustomCommands>
+        <Command>
+          <type>AfterBuild</type>
+          <command>"/Applications/Visual Studio.app/Contents/MacOS/vstool" setup pack XamarinMvvmCrossTemplateAddIn.dll</command>
+          <workingdir>${TargetDir}</workingdir>
+          <externalConsole>True</externalConsole>
+        </Command>
+        <Command>
+          <type>BeforeBuild</type>
+          <command>./CreateNugets.sh</command>
+          <workingdir>${SolutionDir}/..</workingdir>
+          <externalConsole>True</externalConsole>
+        </Command>
+      </CustomCommands>
+    </CustomCommands>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="MonoDevelop.Addins" Version="0.4.5" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Icons\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Icons\Xamarin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\Xamarin.png" />
+  </ItemGroup>
+    <ItemGroup>
+    <AddinFile Include="..\..\KrzB.MvvmCross.Xamarin.Template.CSharp.Native.iOS.Android.nupkg">
+      <Link>Templates\KrzB.MvvmCross.Xamarin.Template.CSharp.Native.iOS.Android.nupkg</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </AddinFile>
+   
+  </ItemGroup>
+   
+</Project>

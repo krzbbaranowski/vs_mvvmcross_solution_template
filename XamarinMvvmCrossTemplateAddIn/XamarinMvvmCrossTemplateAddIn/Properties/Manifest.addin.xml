@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionModel>
+    <Runtime>
+    </Runtime>
+ 
+
+    <Extension path="/MonoDevelop/Ide/Templates">
+      <Template
+         id="KBXamarinMvvmCrossTemplate.CSharp"
+         _overrideDescription="Creates a new single page native MvvmCross app."
+         path="Templates/KrzB.MvvmCross.Xamarin.Template.CSharp.Native.iOS.Android.nupkg"
+         category="other/net/mvvmcross"
+         icon="res:XamarinMvvmCrossTemplateAddIn.Icons.Xamarin.png"/>   
+    </Extension>
+</ExtensionModel>

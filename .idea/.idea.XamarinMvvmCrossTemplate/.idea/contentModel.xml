@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/Library/Caches/Rider2018.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2018.2/resharper-host/local/Transient/ReSharperHost/v182/SolutionCaches/_XamarinMvvmCrossTemplate.-1946746261.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive">
+        <e p="Xamarin.Android.Arch.Lifecycle.Runtime.1.0.3.1/proguard" t="Include">
+          <e p="proguard.txt" t="Include" />
+        </e>
+        <e p="Xamarin.Android.Support.Animated.Vector.Drawable.27.0.2.1/proguard" t="Include">
+          <e p="proguard.txt" t="Include" />
+        </e>
+        <e p="Xamarin.Android.Support.Core.UI.27.0.2.1/proguard" t="Include">
+          <e p="proguard.txt" t="Include" />
+        </e>
+        <e p="Xamarin.Android.Support.Design.27.0.2.1/proguard" t="Include">
+          <e p="proguard.txt" t="Include" />
+        </e>
+        <e p="Xamarin.Android.Support.Media.Compat.27.0.2.1/proguard" t="Include">
+          <e p="proguard.txt" t="Include" />
+        </e>
+        <e p="Xamarin.Android.Support.Transition.27.0.2.1/proguard" t="Include">
+          <e p="proguard.txt" t="Include" />
+        </e>
+        <e p="Xamarin.Android.Support.v7.RecyclerView.27.0.2.1/proguard" t="Include">
+          <e p="proguard.txt" t="Include" />
+        </e>
+      </e>
+      <e p="XamarinMvvmCrossTemplate.Core" t="IncludeRecursive">
+        <e p="App.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Converters" t="Include" />
+        <e p="DTO" t="Include" />
+        <e p="Enums" t="Include" />
+        <e p="Infrastructure" t="Include">
+          <e p="Mapper" t="Include">
+            <e p="MapperConfigurator.cs" t="Include" />
+            <e p="MapperProfiles" t="Include" />
+          </e>
+        </e>
+        <e p="Messages" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="XamarinMvvmCrossTemplate.Core.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="PO" t="Include" />
+        <e p="Services" t="Include">
+          <e p="Abstraction" t="Include" />
+          <e p="Implementation" t="Include" />
+        </e>
+        <e p="ViewModels" t="Include">
+          <e p="FirstViewModel.cs" t="Include" />
+        </e>
+        <e p="XamarinMvvmCrossTemplate.Core.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="XamarinMvvmCrossTemplate.Droid" t="IncludeRecursive">
+        <e p="Assets" t="Include">
+          <e p="AboutAssets.txt" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controls" t="Include" />
+        <e p="Converters" t="Include" />
+        <e p="Messages" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AndroidManifest.xml" t="Include" />
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Resources" t="Include">
+          <e p="AboutResources.txt" t="Include" />
+          <e p="drawable" t="Include" />
+          <e p="layout" t="Include">
+            <e p="first_view.xml" t="Include" />
+            <e p="splash_screen.xml" t="Include" />
+          </e>
+          <e p="mipmap-hdpi" t="Include" />
+          <e p="mipmap-mdpi" t="Include" />
+          <e p="mipmap-xhdpi" t="Include" />
+          <e p="mipmap-xxhdpi" t="Include">
+            <e p="SplashScreen.cs" t="Include" />
+          </e>
+          <e p="mipmap-xxxhdpi" t="Include" />
+          <e p="Resource.designer.cs" t="Include" />
+          <e p="values" t="Include">
+            <e p="Strings.xml" t="Include" />
+          </e>
+        </e>
+        <e p="Setup.cs" t="Include" />
+        <e p="Views" t="Include">
+          <e p="FirstView.cs" t="Include" />
+        </e>
+        <e p="XamarinMvvmCrossTemplate.Droid.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="XamarinMvvmCrossTemplate.iOS" t="IncludeRecursive">
+        <e p="AppDelegate.cs" t="Include" />
+        <e p="Application.cs" t="Include" />
+        <e p="Assets.xcassets" t="Include">
+          <e p="AppIcon.appiconset" t="Include">
+            <e p="Contents.json" t="Include" />
+            <e p="Icon-180.png" t="Include" />
+          </e>
+          <e p="Contents.json" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controls" t="Include" />
+        <e p="Converters" t="Include" />
+        <e p="Entitlements.plist" t="Include" />
+        <e p="Info.plist" t="Include" />
+        <e p="LaunchScreen.storyboard" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Resources" t="Include" />
+        <e p="Setup.cs" t="Include" />
+        <e p="Sources" t="Include" />
+        <e p="ViewController.cs" t="Include" />
+        <e p="ViewController.designer.cs" t="Include" />
+        <e p="Views" t="Include">
+          <e p="FirstViewController.cs" t="Include" />
+          <e p="FirstViewController.designer.cs" t="Include" />
+          <e p="FirstViewController.xib" t="Include" />
+        </e>
+        <e p="XamarinMvvmCrossTemplate.iOS.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="XamarinMvvmCrossTemplate.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
