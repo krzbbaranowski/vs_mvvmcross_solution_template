@@ -30,7 +30,7 @@ using Mono.Addins.Description;
 [assembly: Addin(
     "KrzbXamarinMvvmCrossTemplateAddIn",
     Namespace = "XamarinMvvmCrossTemplateAddIn",
-    Version = "1.81"
+    Version = "1.82"
 )]
 
 [assembly: AddinName("MvvmCross 6 Template")]

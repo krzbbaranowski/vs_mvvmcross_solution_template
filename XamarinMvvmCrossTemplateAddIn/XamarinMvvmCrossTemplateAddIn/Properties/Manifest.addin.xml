@@ -6,7 +6,7 @@
 
     <Extension path="/MonoDevelop/Ide/Templates">
       <Template
-         id="KBXamarinMvvmCrossTemplate.CSharp"
+         id="XamarinMvvmCrossTemplate.CSharp"
          _overrideDescription="Creates a new single page native MvvmCross app."
          path="Templates/KrzB.MvvmCross.Xamarin.Template.CSharp.Native.iOS.Android.nupkg"
          category="other/net/mvvmcross"
