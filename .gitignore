@@ -39,3 +39,8 @@ Thumbs.db
 
 # dotCover
 *.dotCover
+.vs/XamarinMvvmCrossTemplate/xs/sqlite3/storage.ide
+.vs/XamarinMvvmCrossTemplate/xs/sqlite3/storage.ide-shm
+.vs/XamarinMvvmCrossTemplate/xs/sqlite3/storage.ide-wal
+XamarinMvvmCrossTemplateAddIn/.vs/XamarinMvvmCrossTemplateAddIn/xs/sqlite3/storage.ide-shm
+XamarinMvvmCrossTemplateAddIn/.vs/XamarinMvvmCrossTemplateAddIn/xs/sqlite3/storage.ide-wal

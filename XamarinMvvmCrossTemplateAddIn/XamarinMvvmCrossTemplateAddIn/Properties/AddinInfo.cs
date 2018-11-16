@@ -28,12 +28,12 @@ using Mono.Addins;
 using Mono.Addins.Description;
 
 [assembly: Addin(
-    "KrzbXamarinMvvmCrossTemplateAddIn",
+    "KrzBBXamarinMvvmCrossTemplateAddIn",
     Namespace = "XamarinMvvmCrossTemplateAddIn",
-    Version = "1.82"
+    Version = "1.85"
 )]
 
-[assembly: AddinName("MvvmCross 6 Template")]
+[assembly: AddinName("Xamarin MvvmCross 6.2.2 Template")]
 [assembly: AddinCategory("IDE extensions")]
 [assembly: AddinDescription("MvvmCrossNativeSinglePage")]
 [assembly: AddinAuthor("Krzysztof Baranowski")]

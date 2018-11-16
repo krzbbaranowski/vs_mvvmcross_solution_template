@@ -1,32 +1,44 @@
 ﻿{
   "$schema": "http://json.schemastore.org/template",
-  "author": "Krzysztof Baranowski - programistabyc.plORY",
+  "author": "Krzysztof Baranowski - programistabyc.pl",
   "classifications": [],
-  "description": "Xamarin(Android, iOS) MvvmCross Template by Krzysztof Baranowski",
-  "name": "Xamarin MvvmCross Template",
-  "defaultName": "XamarinMvvmCrossTemplate",
-  "identity": "XamarinMvvmCrossTemplate.CSharp",
-  "groupIdentity": "XamarinMvvmCrossTemplate",
+  "description": "Xamarin( Android, iOS) MvvmCross Template",
+  "name": "Xamarin MvvmCross 6.2.2 Template",
+  "defaultName": "XamarinMvvmCrossTemplate.Core",
+  "identity": "MyTemplate.XamarinMvvmCrossTemplate.Core.CSharp",
+  "groupIdentity": "MyTemplate.XamarinMvvmCrossTemplate.Core",
   "tags": {
     "language": "C#",
-    "type": "project"
+    "type": "project",
+    "vsmac-category": "multiplat/app/native"
   },
-  "shortName": "XamarinMvvmCrossTemplate",
-  "sourceName": "XamarinMvvmCrossTemplate",
+  "shortName": "XamarinMvvmCrossTemplate.Core",
+  "sourceName": "XamarinMvvmCrossTemplate.Core",
   "guids": [
     "{DD156E6C-65C6-4F0C-99DC-0486D8EF00E5}",
     "{E0E81764-A587-4F8C-892F-4AF03C7FD5A8}",
     "{65396C17-A285-453C-ABB3-48DFFEF65759}"
   ],
+  "sources": [
+    {
+      "modifiers": [
+        {
+          "exclude": [
+            ".vs/**/*"
+          ]
+        }
+      ]
+    }
+  ],
   "primaryOutputs": [
     {
-      "path": "MvvmCrossNativeTemplate/XamarinMvvmCrossTemplate.Core//XamarinMvvmCrossTemplate.Core.csproj"
+      "path": "MvvmCrossNativeTemplate/XamarinMvvmCrossTemplate.Core/XamarinMvvmCrossTemplate.Core.csproj"
     },
     {
-      "path": "MvvmCrossNativeTemplate/XamarinMvvmCrossTemplate.Droid//XamarinMvvmCrossTemplate.Droid.csproj"
+      "path": "MvvmCrossNativeTemplate/XamarinMvvmCrossTemplate.Droid/XamarinMvvmCrossTemplate.Droid.csproj"
     },
     {
-      "path": "MvvmCrossNativeTemplate/XamarinMvvmCrossTemplate.iOS//XamarinMvvmCrossTemplate.iOS.csproj"
+      "path": "MvvmCrossNativeTemplate/XamarinMvvmCrossTemplate.iOS/XamarinMvvmCrossTemplate.iOS.csproj"
     }
   ]
 }

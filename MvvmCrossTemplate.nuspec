@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>KrzB.MvvmCross.Xamarin.Template.CSharp.Native.iOS.Android</id>
-    <version>1.0.3</version>
+    <version>1.0.0</version>
     <description>
       Creates an MvvmCross solution for iOS and Android.
     </description>
@@ -10,8 +10,8 @@
     <packageTypes>
       <packageType name="Template" />
     </packageTypes>
-    <title>MvvmCross template - native app for iOS and Android</title>
-    <summary>  Creates an MvvmCross solution for iOS and Android.</summary>
+    <title>MvvmCross template - native app for iOS and AndroidXD</title>
+    <summary>  Creates an MvvmCross solution for iOS and AndroidXD.</summary>
     <projectUrl>https://github.com/krzbbaranowski/vs_mvvmcross_solution_template</projectUrl>
     <iconUrl>http://programistabyc.pl/wp-content/uploads/2018/11/Xamarin.png</iconUrl>
     <tags>MvvmCross template Xamarin native iOS Android visual studio</tags>
