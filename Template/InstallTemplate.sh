@@ -1,0 +1,1 @@
+dotnet new --install KrzB.MvvmCross.Xamarin.Template.CSharp.Native.iOS.Android.nupkg
