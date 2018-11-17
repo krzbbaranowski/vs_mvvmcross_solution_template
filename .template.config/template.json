@@ -2,7 +2,7 @@
   "$schema": "http://json.schemastore.org/template",
   "author": "Krzysztof Baranowski - ProgramistaByc.pl",
   "classifications": [],
-  "description": "Xamarin(Android, iOS) MvvmCross Template 1.0.0",
+  "description": "Xamarin(Android, iOS) MvvmCross Template 1.0.1",
   "name": "Xamarin MvvmCross 6.2.2 Template",
   "defaultName": "XamarinMvvmCrossTemplate",
   "identity": "MyTemplate.XamarinMvvmCrossTemplate.CSharp",
@@ -10,7 +10,7 @@
   "tags": {
     "language": "C#",
     "type": "project",
-    "vsmac-category": "multiplat/app/native"
+    "vsmac-category": "other/net/general"
   },
   "shortName": "XamarinMvvmCrossTemplate",
   "sourceName": "XamarinMvvmCrossTemplate",
